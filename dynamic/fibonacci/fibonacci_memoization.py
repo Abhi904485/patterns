@@ -11,4 +11,4 @@ def fibonacci_memoization(number: int, cache={}) -> int:
     return result
 
 
-fibonacci_memoization(11)
+print(fibonacci_memoization(6))
